@@ -111,3 +111,100 @@ button:hover{
     background-color: #c1ab84;
 
 }
+i{
+    color: #969696;
+}
+footer{
+    background-color: #353330;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #969696;
+    ;
+}
+footer h3{
+    color: white;
+}
+footer ul li{
+    border-bottom: 2px solid rgba(50, 49, 49, 0.773);
+}
+footer li a{
+    color: #969696;
+}
+footer .MainFooter{
+    background-color: #403d38;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.Sec{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Sec ul{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+.FooterSec4, .FooterSec1{
+width: 25%;
+}
+.FooterSec4 img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    opacity: 0.05;
+  
+
+}
+.FooterSec4 ul li{
+    display: flex;
+    gap: 10px;
+}
+ul li:last-of-type{
+    border-bottom: none;
+}
+footer .SubFooter{
+    background-color: #353330;
+    display: flex;
+    justify-content: center;
+}
+footer .SubFooter .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.icons .icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #484540;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center; 
+    justify-content: center;
+}
+.icons .icon i{
+     font-size: 40px;
+     color: #8c8a86;
+     
+}
+footer .SubFooter .container img{
+    height: 200px;
+    width: 400px;
+}
+
+
+
+
